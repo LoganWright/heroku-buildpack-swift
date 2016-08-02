@@ -1,5 +1,3 @@
 # Install Swift
 cd "$BUILD_DIR"
 eval "$(curl -sL swift.qutheory.io/heroku)"
-
-apt-get install libmysqlclient
