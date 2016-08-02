@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
 echo "precompile-installing mysql(2)"
-apt-get update
-apt-get install -y mysql-server libmysqlclient-dev
+# apt-get update
+# apt-get install -y mysql-server libmysqlclient-dev
 echo "done installing mysql"
 
 if [ -f bin/pre_compile ]; then
